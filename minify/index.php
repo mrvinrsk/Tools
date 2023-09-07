@@ -30,6 +30,21 @@
             <button id="copy">Copy</button>
         </div>
     </div>
+
+    <div class="flex row space-between stats">
+        <div>
+            <p id="language"></p>
+            <span>Language</span>
+        </div>
+        <div>
+            <p id="reduction"></p>
+            <span>Reduction</span>
+        </div>
+        <div>
+            <p id="time"></p>
+            <span>Processed time</span>
+        </div>
+    </div>
 </main>
 
 </body>

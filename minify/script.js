@@ -12,6 +12,11 @@ document.addEventListener('DOMContentLoaded', () => {
             const min = minify(input);
             output.value = min.minified.code;
 
+            // update stats – TODO: Animate (count) and add certainty.
+            document.getElementById('language').innerText = min.language.language.name;
+            document.getElementById('reduction').innerText = min.reduction + '%';
+            document.getElementById('time').innerText = min.time + 'ms';
+
             console.log(min);
         } else {
             output.value = '';

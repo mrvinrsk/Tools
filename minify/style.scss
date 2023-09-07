@@ -21,3 +21,16 @@
     transform: scale(1);
   }
 }
+
+.stats {
+  margin-top: 2rem;
+
+  p {
+    font-weight: 600;
+    font-size: 2rem;
+  }
+
+  span {
+    opacity: .5;
+  }
+}

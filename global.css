@@ -438,4 +438,19 @@ p:not(.unlimited) {
   max-width: 60ch;
 }
 
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+@media screen and (min-width: 700px) {
+  .flex {
+    flex-direction: row;
+    gap: 2rem;
+  }
+}
+.flex.space-between {
+  justify-content: space-between;
+}
+
 /*# sourceMappingURL=global.css.map */

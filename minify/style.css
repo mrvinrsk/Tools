@@ -20,4 +20,15 @@
   transform: scale(1);
 }
 
+.stats {
+  margin-top: 2rem;
+}
+.stats p {
+  font-weight: 600;
+  font-size: 2rem;
+}
+.stats span {
+  opacity: 0.5;
+}
+
 /*# sourceMappingURL=style.css.map */
