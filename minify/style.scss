@@ -1,0 +1,23 @@
+#copy {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: 'Copied!';
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    transform: scale(.7);
+    backdrop-filter: blur(5px) brightness(0.7) saturate(.5);
+    -webkit-backdrop-filter: blur(5px) brightness(0.7) saturate(.5);
+  }
+
+  &.copied::before {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
